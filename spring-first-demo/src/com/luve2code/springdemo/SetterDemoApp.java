@@ -1,5 +1,7 @@
 package com.luve2code.springdemo;
 
+import java.util.Random;
+
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class SetterDemoApp {

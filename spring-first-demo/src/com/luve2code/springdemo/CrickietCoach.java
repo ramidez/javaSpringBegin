@@ -10,7 +10,6 @@ public class CrickietCoach implements Coach {
 	}
 
 	public void setEmail(String email) {
-		System.out.println("Set Email");
 		this.email = email;
 	}
 
@@ -19,7 +18,6 @@ public class CrickietCoach implements Coach {
 	}
 
 	public void setTeam(String team) {
-		System.out.println("Set Team");
 		this.team = team;
 	}
 
@@ -40,7 +38,7 @@ public class CrickietCoach implements Coach {
 
 	@Override
 	public String getDailyFortune() {
-		return "Forutna";
+		return fortuneService.getFortune();
 	}
 
 }

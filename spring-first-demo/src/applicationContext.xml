@@ -9,7 +9,7 @@
 	<context:property-placeholder location="classpath:sport.properties.txt"/>
     <!-- Define your beans here -->
     <bean id="myFortuneService"
-    	class="com.luve2code.springdemo.HappyFortuneService"></bean>
+    	class="com.luve2code.springdemo.RandomFortuneService"></bean>
     	
     <bean id="myCoach"
     	class="com.luve2code.springdemo.RunCoach">
